@@ -1,8 +1,8 @@
 package trabajo_practico_1;
 
 public class Electrodomestico {
-	String nombre,color;
-	double consumoEnerg,peso,precioBase;
+	private String nombre,color;
+	private double consumoEnerg,peso,precioBase;
 	
 	//Constructores 
 	public Electrodomestico() {
