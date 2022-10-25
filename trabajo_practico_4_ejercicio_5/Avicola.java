@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Avicola {
 	private ArrayList<Producto> productos;
 
-	public Avicola(ArrayList<Producto> productos) {
-		this.productos = productos;
+	public Avicola() {
+		this.productos = new ArrayList<>();
 	}
 
 	public ArrayList<Producto> getProductos() {
@@ -15,5 +15,11 @@ public class Avicola {
 	public void addProduct(Producto p){
 		this.productos.add(p);
 	}
+
+	@Override
+	public String toString() {
+		return "Avicola [productos=" + productos + "]";
+	}
+	
 	
 }
